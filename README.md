@@ -7,7 +7,7 @@ The idea about the scripts are to remove most data handling of data in Excel, no
 This will also make sample to sample handling faster and will by time be made into an automatic workflow for handling several MS-samples for proteomics. 
 
 # Automated workflow
-The plan is to make an automated workflow where you can input Maxquant file (proteinGroups.txt) and have an filtered output of tables, figures etc. for fast analysis that can be used for articles. 
+The plan is to make an automated workflow where you can input Maxquant file (proteinGroups.txt) and have a output of tables, figures etc. for fast analysis that can be used for articles. 
 
 ### 1_maxquant_cleaner.py
 
@@ -28,3 +28,18 @@ Takes any dataframe and makes it to a latex file for use in Latex based programs
  
 Finds words within a column
 Has been used to find how many enzymes there are in each sidestream along with how many proteases there are
+
+### API / JSON
+
+**Work in progress/ idea ** 
+
+Extract data from sites such as KEGG.jp, blast etc. 
+Get what cofactor, substrate, product and the reaction it catalyze along with the subcellular localisation for each protein candidate. Could also include pathway
+
+Output this as csv and/or Latex code for easy transfer to overleaf
+
+This would work as a screening method to find interesting proteins 
+
+
+ - 
+
