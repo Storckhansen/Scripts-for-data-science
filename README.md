@@ -23,3 +23,8 @@ The filtered overview will be made to a csv called "filt.csv".
 
 Takes any dataframe and makes it to a latex file for use in Latex based programs such as Overleaf 
 
+
+### Enzyme finder
+ 
+Finds words within a column
+Has been used to find how many enzymes there are in each sidestream along with how many proteases there are
