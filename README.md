@@ -33,7 +33,7 @@ Has been used to find how many enzymes there are in each sidestream along with h
 
 **Work in progress/ idea ** 
 
-Extract data from sites such as KEGG.jp, blast etc. 
+Extract data from sites such as KEGG.jp, blast, uniprot etc. 
 Get what cofactor, substrate, product and the reaction it catalyze along with the subcellular localisation for each protein candidate. Could also include pathway
 
 Output this as csv and/or Latex code for easy transfer to overleaf
@@ -41,5 +41,5 @@ Output this as csv and/or Latex code for easy transfer to overleaf
 This would work as a screening method to find interesting proteins 
 
 
- - 
+
 
